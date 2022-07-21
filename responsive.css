@@ -1,0 +1,40 @@
+#check{
+    display: none;
+}
+  
+.checkbtn{
+    display: none;
+}
+
+#check:checked ~ ul{
+    left: 0;
+}
+
+@media (max-width:800px) {
+    #nav-ul{
+        display: block;
+        top: 60px;
+        background-color: rgb(39, 109, 213);
+        position: fixed;
+        left: -100%;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s ease;
+        color: red;
+    }
+
+    .nav-li{
+        margin: 60px 0;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked ~ .checkbtn i:before{
+        content: "\f00d";
+    }
+}
