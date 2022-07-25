@@ -37,4 +37,11 @@
     #check:checked ~ .checkbtn i:before{
         content: "\f00d";
     }
+
+    .container{
+        display: none;
+    }
+    .partition{
+        width: 100%;
+    }
 }
