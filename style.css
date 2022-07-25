@@ -517,7 +517,7 @@
   background-color: rgb(248, 247, 247);
   width: 30%;
   text-align: center;
-  margin-right: 3em;
+  /* margin-right: 3em; */
 }
 
 .app-head{
