@@ -61,14 +61,30 @@
       }
     .medico{
         display: block;
+        width: 40%;
+        margin: auto;
     }
     .medical-service-care {
         display: flex;
         justify-content: space-between;
-        width: 35%;
-        box-shadow: 1px 1px black;
+        width: 100%;
+        /* box-shadow: 1px 3px 3px 3px rgb(236, 235, 235); */
         border: 1px solid black;
         padding: 10px;
         margin: 10px;
       }
+      .our-gallery, .gallery, .gallery-img{
+        display: none;
+      }
+
+      .meet-doctors{
+        display: block;
+        width: 50%;
+        margin: auto;
+      }
+      .doctor1{
+        width: 100%;
+        background-color: azure;
+      }
+
 }
