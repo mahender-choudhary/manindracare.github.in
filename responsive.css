@@ -10,7 +10,7 @@
     left: 0;
 }
 
-@media (max-width:800px) {
+@media (max-width:821px) {
     #nav-ul{
         display: block;
         top: 60px;
@@ -38,10 +38,13 @@
         content: "\f00d";
     }
 
-    .container{
+    /* .container{
         display: none;
-    }
+    } */
     .partition{
         width: 100%;
+    }
+    .opening-hrs{
+        display: inline-block;
     }
 }
