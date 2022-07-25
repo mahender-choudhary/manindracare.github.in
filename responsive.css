@@ -10,15 +10,15 @@
     left: 0;
 }
 
-@media (max-width:821px) {
+@media (max-width:851px) {
     #nav-ul{
         display: block;
-        top: 60px;
+        top: 52px;
         background-color: rgb(39, 109, 213);
         position: fixed;
         left: -100%;
         text-align: center;
-        width: 100%;
+        width: 70%;
         height: 100%;
         transition: all 0.4s ease;
         color: red;
@@ -33,58 +33,52 @@
     }
     .checkbtn{
         display: block;
+        color: white;
+        font-size: 2em;
     }
     #check:checked ~ .checkbtn i:before{
         content: "\f00d";
     }
-
-    /* .container{
-        display: none;
-    } */
-    .partition{
-        width: 100%;
+    .container{
+        font-size: 12px;
     }
-    
+    .log{
+        display: none;
+    }
+
+    .nav-btn a{
+        text-decoration: none;
+        color: white;
+        padding: 9px 15px;
+        font-size: 10px;
+        font-family: Verdana;
+    }
+    .nav-btn{
+        display: block;
+        background-color: #d9534f;
+        border: none;
+        height: 20px;
+        border-radius: 3px;
+    }
+    .wtsp{
+        display: none;
+    }
 }
 
-@media (max-width:1073px) {
+@media (max-width:1035px) {
     .cards{
-        display:block;
-        width: 514px;
-        margin: auto;
-    }
-    .opening-hrs {
-        width: 100%;
-        border-radius: 7px;
-        background-color: rgb(248, 247, 247);
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      }
-    .medico{
         display: block;
-        width: 370px;
-        margin: auto;
     }
-    .medical-service-care {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        /* box-shadow: 1px 3px 3px 3px rgb(236, 235, 235); */
-        border: 1px solid black;
-        padding: 10px;
-        margin: 10px;
-      }
-      .our-gallery, .gallery, .gallery-img{
-        display: none;
-      }
+    .card1{
+        width: 60%;
+        margin: 10px auto;
+        
+    }
+}
 
-      .meet-doctors{
-        display: block;
-        width: 70%;
-        margin: auto;
-      }
-      .doctor1{
-        width: 100%;
-        background-color: azure;
-      }
-
+@media (max-width:545px) {
+    .card1{
+        width: 95%;
+        margin: 15px auto;
+    }
 }
