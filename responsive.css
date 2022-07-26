@@ -90,6 +90,12 @@
     .we-serve button{
         margin-left: 5em;
     }
+    .images, .gallery{
+        display: none;
+    }
+    #img-t{
+        margin-bottom: 4em;
+    }
 }
 
 @media (max-width:545px) {

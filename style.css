@@ -335,6 +335,7 @@ color: rgb(39, 109, 213);
 .images{
   width: 99%;
   margin: auto;
+  margin-bottom: 4em;
 }
 
 .images img{
