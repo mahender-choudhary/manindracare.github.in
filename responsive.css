@@ -127,3 +127,14 @@
         font-size: 17px;
     }
 }
+
+@media (max-width:672px) {
+    .ws-card{
+        display: block;
+    }
+    .wsi-card1{
+        width: 90%;
+        margin: 1em auto;
+    }
+
+}
