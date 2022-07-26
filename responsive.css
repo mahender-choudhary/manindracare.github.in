@@ -59,6 +59,9 @@
         border: none;
         height: 20px;
         border-radius: 3px;
+        /* text-align: center; */
+        display: flex;
+        align-items: center;
     }
     .wtsp{
         display: none;
@@ -74,11 +77,53 @@
         margin: 10px auto;
         
     }
+    .ms-card{
+        display: block;
+    }
+    .ms-card1{
+        width: 70%;
+        margin: 1em auto;
+    }
+    .we-serve{
+        padding: 1em 2em;
+    }
+    .we-serve button{
+        margin-left: 5em;
+    }
 }
 
 @media (max-width:545px) {
     .card1{
         width: 95%;
         margin: 15px auto;
+    }
+    .ms-card1{
+        width: 90%;
+        margin: 1em auto;
+    }
+    .ms-icon{
+        margin-right: 15px;
+    }
+    .we-serve{
+        padding: 1em 0.2em;
+    }
+    .ws-part1{
+        width: 80%;
+    }
+    .ws-part1 h1{
+        font-size: 15px;
+    }
+    .ws-part1 p{
+        font-size: 0.7em;
+    }
+    .we-serve button{
+        font-size: 6px;
+        width: 100px;
+    }
+}
+
+@media (max-width:823px) {
+    .ws-part1 h1{
+        font-size: 17px;
     }
 }

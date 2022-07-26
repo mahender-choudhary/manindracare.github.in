@@ -177,3 +177,155 @@
   text-transform: uppercase;
   font-weight: bold;
 }
+
+/* medical service css  */
+
+.m-service{
+  margin: 5em 0;
+}
+.m-service h1{
+  text-transform: uppercase;
+  font-family: verdana;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.ms-span{
+  color: rgb(39, 109, 213);
+}
+.m-service p{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  line-height: 2em;
+}
+.ms-card{
+  display: flex;
+  width: 93%;
+  margin: 1em auto;
+}
+
+.ms-card1{
+  display: flex;
+  align-items: center;
+  width: 30%;
+  border: 1px solid black;
+  box-shadow: 7px 7px 7px rgb(122, 120, 120);
+  height: 150px;
+  margin: 0 1em;
+}
+.ms-icon{
+  background-color: rgb(39, 109, 213);
+  color: white;
+  padding: 14px;
+  border-radius: 50%;
+  font-size: 3em;
+  margin-right: 1em;
+  margin-left: 5px;
+}
+.msc-nested{
+  padding-right: 1em;
+}
+.msc-nested h2{
+  text-transform: capitalize;
+  font-family: verdana;
+  font-size: 1em;
+  /* margin-bottom: 1em; */
+  
+}
+.msc-nested p{
+  /* margin-bottom: 1em; */
+  padding: 1em 0
+  ;
+}
+.msc-nested a{
+  text-decoration: none;
+  color: rgb(39, 109, 213);
+  font-family: verdana;
+  font-size: 13px;
+}
+
+/* we serve better css part  */
+
+.we-serve{
+  display: flex;
+  background-color: rgb(39, 109, 213);
+  padding: 2em 4em;
+  align-items: center;
+}
+.we-serve button{
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  height: 20px;
+  border-radius: 27px;
+  padding: 13px;
+  display: flex;
+  align-items: center;
+  font-family: verdana;
+  font-weight: bold;
+  margin-left: 15em;
+  border: none;
+}
+.ws-part1{
+  width: 66%;
+}
+.ws-part1 h1{
+  text-transform: capitalize;
+  font-style: italic;
+  font-family: verdana;
+  color: white;
+  font-size: 27px;
+}
+.ws-part1 p{
+  line-height: 1.5em;
+  margin-top: 1em;
+  color: white;
+}
+
+/* we are specialized in part css  */
+
+.ws-card{
+display: flex;
+width: 90%;
+justify-content: space-around;
+margin: 4em auto;
+}
+
+.wsi-card1{
+width: 30%;
+background-color: rgb(230, 229, 229);
+box-shadow: 5px 5px 5px rgb(64, 60, 60);
+}
+.wsc1-p1{
+display: flex;
+}
+
+.wsi-icon{
+font-size: 35px;
+background-color: rgb(39, 109, 213);
+color: white;
+height: 30px;
+padding: 20px;
+/* margin-top: 0; */
+}
+
+.wsc1-p1-nested{
+margin-left: 1em;
+padding-bottom: 1em;
+}
+.wsc1-p1-nested h1{
+text-transform: capitalize;
+font-family: verdana;
+font-size: 17px;
+}
+
+.wsc1-p1-nested p{
+line-height: 1.5em;
+margin: 0.5em 0;
+}
+.wsc1-p1-nested a{
+text-decoration: none;
+color: rgb(39, 109, 213);
+}
