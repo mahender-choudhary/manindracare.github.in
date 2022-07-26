@@ -329,3 +329,15 @@ margin: 0.5em 0;
 text-decoration: none;
 color: rgb(39, 109, 213);
 }
+
+
+/* images and gallery  */
+.images{
+  width: 99%;
+  margin: auto;
+}
+
+.images img{
+  width: 300px;
+  height: 270px;
+}
