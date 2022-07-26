@@ -144,3 +144,23 @@
     }
 
 }
+
+/* login page  */
+
+@media (max-width: 759px){
+    .container-login{
+        display: none;
+    }
+    .logo{
+        text-align: center;
+    }
+    .login1{
+        width: 100%;
+    }
+  }
+  
+  @media (max-width: 1022px){
+    .gnrt-pswd{
+        padding: 5px 30px;
+    }
+  }
