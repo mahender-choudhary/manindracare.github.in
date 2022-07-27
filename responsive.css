@@ -142,7 +142,13 @@
     .card-1{
         width: 70%;
         margin: 1em auto;
-
+    }
+    .f-part2{
+        display: none;
+    }
+    .f-part1{
+        width: 80%;
+        text-align: center;
     }
 }
 
