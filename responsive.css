@@ -126,6 +126,7 @@
         font-size: 6px;
         width: 100px;
     }
+
 }
 
 @media (max-width:823px) {
@@ -142,6 +143,26 @@
         width: 90%;
         margin: 1em auto;
     }
+
+}
+
+/* meet our doctors  */
+
+@media (max-width:1183px) {
+    .meet-our-doctors{
+        display: block;
+    }
+    .mod-card1{
+        width: 70%;
+        margin: 1em auto;
+      }
+}
+
+@media (max-width:418px) {
+    .mod-card1{
+        width: 95%;
+        margin: 1em auto;
+      }
 
 }
 

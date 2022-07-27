@@ -344,6 +344,69 @@ color: rgb(39, 109, 213);
 }
 
 
+/* meet our doctors   */
+
+  .meet-our-doctors{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .mod-card1{
+    background-color: rgb(231, 231, 231);
+    width: 25%;
+  }
+  .mod-card1 img{
+    width: 100%;
+  }
+  
+  .modc-nested h2{
+    font-size: 1em;
+    font-family: verdana;
+    color: rgb(39, 109, 213);
+  }
+  .modc-nested h3{
+    font-size: 1em;
+    text-transform: capitalize;
+    font-family: verdana;
+  }
+  .modc-nested{
+    padding-left: 2em;
+    line-height: 1.8em;
+  }
+  .app-sm{
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .app-sm button{
+    background-color: rgb(39, 109, 213);
+    border: none;
+    border-radius: 3px;
+    height: 2em;
+  }
+  .app-sm button a{
+    text-decoration: none;
+    color: white;
+    padding: 1em 2em;
+    font-family: verdana;
+    font-weight: 600;
+  }
+  .doctor-sm{
+    display: flex;
+    align-items: center;
+  }
+  .doctor-sm a{
+    color: rgb(39, 109, 213);
+    padding: 0.2em;
+    font-size: 1.7em;
+    height: 1em;
+  }
+
+
+
+
+
 
 /* login page  */
 
