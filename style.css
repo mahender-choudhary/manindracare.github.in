@@ -437,6 +437,7 @@ color: rgb(39, 109, 213);
 }
 
 
+/* latest news  */
 
 .news-card{
   display: flex;
@@ -473,6 +474,30 @@ color: rgb(39, 109, 213);
 }
 
 
+/* random icons  */
+
+.rc-1{
+  display: block;
+  text-align: center;
+  width: 25%;
+  border: 10px solid rgb(169, 166, 166);
+  padding: 1em;
+}
+.rc-1 i{
+  font-size: 2em;
+  background-color: rgb(17, 168, 239);
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.rc-1 h2{
+  font-family: verdana;
+  font-size: 1em;
+}
+.rc-1 a{
+  text-decoration: none;
+  color: rgb(17, 168, 239);
+}
 /* login page  */
 
 .logo{
