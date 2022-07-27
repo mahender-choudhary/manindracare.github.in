@@ -349,6 +349,7 @@ color: rgb(39, 109, 213);
   .meet-our-doctors{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 2em;
   }
 
   .mod-card1{
@@ -403,9 +404,73 @@ color: rgb(39, 109, 213);
     height: 1em;
   }
 
+/* numbers */
+
+.numbers{
+  display: flex;
+  justify-content: center;
+  background-color:rgb(17, 168, 239);
+  margin-bottom: 2em;
+}
+
+.trophy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 2em;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+.award{
+  padding: 2em;
+}
+
+.award h1,p{
+  padding: 10px 0;
+}
+
+.number-icons{
+  font-size: 3em;
+}
 
 
 
+.news-card{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-1{
+  width: 25%;
+  background-color: rgb(224, 228, 232);
+  padding-bottom: 1em;
+}
+
+.card-1 h1{
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+
+
+.card-1 button{
+  background-color: rgb(17, 168, 239);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5em;
+  border: none;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 1.5em;
+}
+
+.card-1 h1, p{
+  margin: auto;
+  width: 90%;
+}
 
 
 /* login page  */

@@ -133,6 +133,17 @@
     .ws-part1 h1{
         font-size: 17px;
     }
+    .numbers{
+        display: block;
+    }
+    .news-card{
+        display: block;
+    }
+    .card-1{
+        width: 70%;
+        margin: 1em auto;
+
+    }
 }
 
 @media (max-width:672px) {
@@ -163,6 +174,10 @@
         width: 95%;
         margin: 1em auto;
       }
+      .card-1{
+        width: 95%;
+
+    }
 
 }
 
