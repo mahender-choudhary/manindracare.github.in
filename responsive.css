@@ -178,6 +178,13 @@
         width: 95%;
 
     }
+    .random-icons{
+        display: block;
+    }
+    .rc-1{
+        width: 80%;
+        margin: 1em auto;
+    }
 
 }
 

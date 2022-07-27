@@ -476,12 +476,18 @@ color: rgb(39, 109, 213);
 
 /* random icons  */
 
+.random-icons{
+  display: flex;
+  justify-content: space-around;
+  margin: 2em 0;
+}
 .rc-1{
   display: block;
   text-align: center;
-  width: 25%;
-  border: 10px solid rgb(169, 166, 166);
-  padding: 1em;
+  width: 19%;
+  border: 10px solid rgb(211, 208, 208);
+  padding: 1em 0;
+  box-shadow: 3px 5px 5px rgb(91, 91, 91);
 }
 .rc-1 i{
   font-size: 2em;
