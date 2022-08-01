@@ -33,8 +33,11 @@
     }
     .checkbtn{
         display: block;
-        color: white;
+        background-color: white;
+        color: rgb(39, 109, 213);
+        padding: 7px 10px;
         font-size: 2em;
+
     }
     #check:checked ~ .checkbtn i:before{
         content: "\f00d";
