@@ -1,220 +1,214 @@
-#check{
-    display: none;
-}
-  
-.checkbtn{
-    display: none;
+#check {
+  display: none;
 }
 
-#check:checked ~ ul{
+.checkbtn {
+  display: none;
+}
+
+#check:checked ~ ul {
+  left: 0;
+}
+
+@media (max-width: 851px) {
+  #nav-ul {
+    display: block;
+    top: 52px;
+    background-color: rgb(39, 109, 213);
+    position: fixed;
+    left: -100%;
+    text-align: center;
+    width: 70%;
+    height: 100%;
+    transition: all 0.4s ease;
+    color: red;
+  }
+
+  .nav-li {
+    margin: 60px 0;
+  }
+
+  #check:checked ~ ul {
     left: 0;
+  }
+  .checkbtn {
+    display: block;
+    background-color: white;
+    color: rgb(39, 109, 213);
+    padding: 7px 10px;
+    font-size: 2em;
+    border-radius: 50%;
+  }
+  #check:checked ~ .checkbtn i:before {
+    content: "\f00d";
+  }
+  .container {
+    font-size: 12px;
+  }
+  .log {
+    display: none;
+  }
+
+  .nav-btn a {
+    text-decoration: none;
+    color: white;
+    padding: 9px 15px;
+    font-size: 10px;
+    font-family: Verdana;
+  }
+  .nav-btn {
+    display: block;
+    background-color: #d9534f;
+    border: none;
+    height: 20px;
+    border-radius: 3px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+  }
+  .wtsp {
+    display: none;
+  }
 }
 
-@media (max-width:851px) {
-    #nav-ul{
-        display: block;
-        top: 52px;
-        background-color: rgb(39, 109, 213);
-        position: fixed;
-        left: -100%;
-        text-align: center;
-        width: 70%;
-        height: 100%;
-        transition: all 0.4s ease;
-        color: red;
-    }
-
-    .nav-li{
-        margin: 60px 0;
-    }
-
-    #check:checked ~ ul{
-        left: 0;
-    }
-    .checkbtn{
-        display: block;
-        background-color: white;
-        color: rgb(39, 109, 213);
-        padding: 7px 10px;
-        font-size: 2em;
-        border-radius: 50%;
-
-
-    }
-    #check:checked ~ .checkbtn i:before{
-        content: "\f00d";
-    }
-    .container{
-        font-size: 12px;
-    }
-    .log{
-        display: none;
-    }
-
-    .nav-btn a{
-        text-decoration: none;
-        color: white;
-        padding: 9px 15px;
-        font-size: 10px;
-        font-family: Verdana;
-    }
-    .nav-btn{
-        display: block;
-        background-color: #d9534f;
-        border: none;
-        height: 20px;
-        border-radius: 3px;
-        /* text-align: center; */
-        display: flex;
-        align-items: center;
-    }
-    .wtsp{
-        display: none;
-    }
+@media (max-width: 1035px) {
+  .cards {
+    display: block;
+  }
+  .card1 {
+    width: 60%;
+    margin: 10px auto;
+  }
+  .ms-card {
+    display: block;
+  }
+  .ms-card1 {
+    width: 70%;
+    margin: 1em auto;
+  }
+  .we-serve {
+    padding: 1em 2em;
+  }
+  .we-serve button {
+    margin-left: 5em;
+  }
+  .images,
+  .gallery {
+    display: none;
+  }
+  #img-t {
+    margin-bottom: 4em;
+  }
 }
 
-@media (max-width:1035px) {
-    .cards{
-        display: block;
-    }
-    .card1{
-        width: 60%;
-        margin: 10px auto;
-        
-    }
-    .ms-card{
-        display: block;
-    }
-    .ms-card1{
-        width: 70%;
-        margin: 1em auto;
-    }
-    .we-serve{
-        padding: 1em 2em;
-    }
-    .we-serve button{
-        margin-left: 5em;
-    }
-    .images, .gallery{
-        display: none;
-    }
-    #img-t{
-        margin-bottom: 4em;
-    }
+@media (max-width: 545px) {
+  .card1 {
+    width: 95%;
+    margin: 15px auto;
+  }
+  .ms-card1 {
+    width: 90%;
+    margin: 1em auto;
+  }
+  .ms-icon {
+    margin-right: 15px;
+  }
+  .we-serve {
+    padding: 1em 0.2em;
+  }
+  .ws-part1 {
+    width: 80%;
+  }
+  .ws-part1 h1 {
+    font-size: 15px;
+  }
+  .ws-part1 p {
+    font-size: 0.7em;
+  }
+  .we-serve button {
+    font-size: 6px;
+    width: 100px;
+  }
 }
 
-@media (max-width:545px) {
-    .card1{
-        width: 95%;
-        margin: 15px auto;
-    }
-    .ms-card1{
-        width: 90%;
-        margin: 1em auto;
-    }
-    .ms-icon{
-        margin-right: 15px;
-    }
-    .we-serve{
-        padding: 1em 0.2em;
-    }
-    .ws-part1{
-        width: 80%;
-    }
-    .ws-part1 h1{
-        font-size: 15px;
-    }
-    .ws-part1 p{
-        font-size: 0.7em;
-    }
-    .we-serve button{
-        font-size: 6px;
-        width: 100px;
-    }
-
+@media (max-width: 823px) {
+  .ws-part1 h1 {
+    font-size: 17px;
+  }
+  .numbers {
+    display: block;
+  }
+  .news-card {
+    display: block;
+  }
+  .card-1 {
+    width: 70%;
+    margin: 1em auto;
+  }
+  .f-part2 {
+    display: none;
+  }
+  .f-part1 {
+    width: 80%;
+    text-align: center;
+  }
 }
 
-@media (max-width:823px) {
-    .ws-part1 h1{
-        font-size: 17px;
-    }
-    .numbers{
-        display: block;
-    }
-    .news-card{
-        display: block;
-    }
-    .card-1{
-        width: 70%;
-        margin: 1em auto;
-    }
-    .f-part2{
-        display: none;
-    }
-    .f-part1{
-        width: 80%;
-        text-align: center;
-    }
-}
-
-@media (max-width:672px) {
-    .ws-card{
-        display: block;
-    }
-    .wsi-card1{
-        width: 90%;
-        margin: 1em auto;
-    }
-
+@media (max-width: 672px) {
+  .ws-card {
+    display: block;
+  }
+  .wsi-card1 {
+    width: 90%;
+    margin: 1em auto;
+  }
 }
 
 /* meet our doctors  */
 
-@media (max-width:1183px) {
-    .meet-our-doctors{
-        display: block;
-    }
-    .mod-card1{
-        width: 70%;
-        margin: 1em auto;
-      }
+@media (max-width: 1183px) {
+  .meet-our-doctors {
+    display: block;
+  }
+  .mod-card1 {
+    width: 70%;
+    margin: 1em auto;
+  }
 }
 
-@media (max-width:418px) {
-    .mod-card1{
-        width: 95%;
-        margin: 1em auto;
-      }
-      .card-1{
-        width: 95%;
-
-    }
-    .random-icons{
-        display: block;
-    }
-    .rc-1{
-        width: 80%;
-        margin: 1em auto;
-    }
-
+@media (max-width: 418px) {
+  .mod-card1 {
+    width: 95%;
+    margin: 1em auto;
+  }
+  .card-1 {
+    width: 95%;
+  }
+  .random-icons {
+    display: block;
+  }
+  .rc-1 {
+    width: 80%;
+    margin: 1em auto;
+  }
 }
 
 /* login page  */
 
-@media (max-width: 759px){
-    .container-login{
-        display: none;
-    }
-    .logo{
-        text-align: center;
-    }
-    .login1{
-        width: 100%;
-    }
+@media (max-width: 759px) {
+  .container-login {
+    display: none;
   }
-  
-  @media (max-width: 1022px){
-    .gnrt-pswd{
-        padding: 5px 30px;
-    }
+  .logo {
+    text-align: center;
   }
+  .login1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1022px) {
+  .gnrt-pswd {
+    padding: 5px 30px;
+  }
+}
